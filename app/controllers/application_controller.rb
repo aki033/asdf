@@ -3,6 +3,5 @@ class ApplicationController < ActionController::Base
     render html: 'hello world asdf '
   end
   def about
-    render html: 'about world asdf '
   end
 end
